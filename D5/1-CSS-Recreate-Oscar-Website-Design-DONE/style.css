@@ -1,0 +1,64 @@
+.hero {
+    background-image: url("assets/images/hero.png");
+    background-size: cover;
+    height: 60vh;
+}
+
+nav {
+    margin: auto;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    color: aliceblue;
+    list-style: none;
+}
+
+.nav-item {
+    border: 1px solid whitesmoke;
+    border-radius: 30%;
+    margin: 1em;
+    width: 10vw;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: teal;
+}
+
+.nav-item:hover {
+    color: teal;
+    background-color: whitesmoke;
+}
+
+.shop-plans {
+    border: 1px solid whitesmoke;
+    border-radius: 30%;
+    margin: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: teal;
+    width: 16vw;
+}
+
+.shop-plans:hover {
+    color: teal;
+    background-color: whitesmoke;
+}
+
+.offer {
+    width: 100%;
+    z-index: 2;
+    top: 652px;
+    position: fixed;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 10px 5px #888888;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+/* change the anchor tag after it's been visited (clicked on) to be darkkhaki */
+a:visited  {
+    color: darkkhaki
+  }
+  
+  /* change the button so that when it is hovered the color of the text is plum */
+#button:hover {
+  color: plum;
+  border-radius: 50%;
+}
+  
+/* change the table so that every other row has text that is thistle color */
+tr:nth-child(even) {
+  color: thistle;
+}
+  
+/* change the table so that every third row has text that is color olivedrab */
+tr:nth-child(3) {
+  color: olivedrab;
+}
+  
+/* select all text that is not the h1 tag to be sans-serif */
+body :not(h1) {
+  font-family: 'Handjet', cursive;
+}
+
+/* #button-id {
+  color: green;
+} */
+
+button + p, h1 {
+  color: red;
+}
+
+/* .button-class {
+  color: blue;
+} */
+
